@@ -1,0 +1,17 @@
+# Cloud Run Configuration for FastAPI + CIFAR-10 Model
+# This configuration deploys the FastAPI app with a Vision Transformer model
+# to Google Cloud Run with free tier support
+
+runtime: python312
+entrypoint: gunicorn -w 1 -k uvicorn.workers.UvicornWorker -b 0.0.0.0:${PORT:-8080} main:app
+
+env: standard
+instance_class: F1
+
+automatic_scaling:
+  min_instances: 0
+  max_instances: 3
+  min_cpu_utilization: 0.5
+
+env_variables:
+  PORT: "8080"

@@ -1,0 +1,99 @@
+{
+  "info": {
+    "_postman_id": "cifar10-api-collection",
+    "name": "CIFAR-10 FastAPI Cloud",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/health",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "health"
+          ]
+        },
+        "description": "Check if the API and model are healthy and ready"
+      },
+      "response": []
+    },
+    {
+      "name": "Predict Image",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "src": ""
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/predict",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "predict"
+          ]
+        },
+        "description": "Upload an image for CIFAR-10 classification"
+      },
+      "response": []
+    },
+    {
+      "name": "Swagger Documentation",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/docs",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "docs"
+          ]
+        },
+        "description": "Interactive API documentation with Swagger UI"
+      },
+      "response": []
+    },
+    {
+      "name": "ReDoc Documentation",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/redoc",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "redoc"
+          ]
+        },
+        "description": "Alternative API documentation view"
+      },
+      "response": []
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "https://your-app.a.run.app",
+      "type": "string",
+      "description": "Replace with your Cloud Run URL"
+    }
+  ]
+}

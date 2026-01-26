@@ -1,0 +1,25 @@
+# Ignore these files when deploying to App Engine
+.git/
+.gitignore
+.gitattributes
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv
+.env
+.DS_Store
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.vscode/
+.idea/
+test_client.py
+data/
+.github/
+README.md
+LICENSE
