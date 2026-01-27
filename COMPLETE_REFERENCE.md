@@ -39,7 +39,7 @@ Your FastAPI CIFAR-10 Image Classification API is fully configured to deploy to 
 
 ### 2️⃣ Deploy (Automated, ~3-5 min)
 ```bash
-cd /Users/hamidrezamatiny/Documents/GitHub/vit-fastapi-cloud-deploy
+cd ../vit-fastapi-cloud-deploy
 ./deploy.sh
 ```
 
@@ -505,7 +505,7 @@ gcloud billing budgets list
 - [ ] Google Cloud project created and selected
 - [ ] Billing account created and linked to project
 - [ ] gcloud CLI installed and authenticated
-- [ ] All files present in: `/Users/hamidrezamatiny/Documents/GitHub/vit-fastapi-cloud-deploy/`
+- [ ] All files present in: `../vit-fastapi-cloud-deploy/`
 - [ ] `deploy.sh` is executable (`ls -l deploy.sh | grep ^-rwx`)
 - [ ] Docker installed and running
 - [ ] Network connection stable
@@ -517,7 +517,7 @@ gcloud billing budgets list
 
 **Option A: Immediate Deployment**
 ```bash
-cd /Users/hamidrezamatiny/Documents/GitHub/vit-fastapi-cloud-deploy
+cd ../vit-fastapi-cloud-deploy
 ./deploy.sh
 ```
 
