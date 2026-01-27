@@ -60,7 +60,7 @@ STEP 3: Test with ./test_deployment.sh (2 minutes)
 
 **STEP 2: Deploy**
 ```bash
-cd /Users/hamidrezamatiny/Documents/GitHub/vit-fastapi-cloud-deploy
+cd ../vit-fastapi-cloud-deploy
 chmod +x deploy.sh test_deployment.sh
 ./deploy.sh
 ```
@@ -74,7 +74,7 @@ chmod +x deploy.sh test_deployment.sh
 
 ## 📋 File Manifest
 
-**Location**: `/Users/hamidrezamatiny/Documents/GitHub/vit-fastapi-cloud-deploy/`
+**Location**: `../vit-fastapi-cloud-deploy/`
 
 | File | Type | Purpose | Status |
 |------|------|---------|--------|
@@ -203,7 +203,7 @@ Interactive API documentation (Swagger UI)
 
 ```bash
 # Navigate to project
-cd /Users/hamidrezamatiny/Documents/GitHub/vit-fastapi-cloud-deploy
+cd ../vit-fastapi-cloud-deploy
 
 # Make scripts executable (if needed)
 chmod +x deploy.sh test_deployment.sh
@@ -231,7 +231,7 @@ gcloud run services delete cifar10-api
 - [ ] Read `ACTION_PLAN.md`
 - [ ] Have Google Cloud account
 - [ ] Enable billing in Google Cloud Console
-- [ ] Files in: `/Users/hamidrezamatiny/Documents/GitHub/vit-fastapi-cloud-deploy/`
+- [ ] Files in: `../vit-fastapi-cloud-deploy/`
 - [ ] `deploy.sh` is executable
 - [ ] Have docker installed (for verification)
 
@@ -325,7 +325,7 @@ Your deployment is successful when:
 
 ## 🎉 Final Notes
 
-- Your project is stored in: `/Users/hamidrezamatiny/Documents/GitHub/vit-fastapi-cloud-deploy/`
+- Your project is stored in: `../vit-fastapi-cloud-deploy/`
 - Everything is documented and ready
 - Deployment takes ~15 minutes (first time)
 - Free tier covers most hobby/testing use
