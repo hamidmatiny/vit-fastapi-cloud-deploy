@@ -2,7 +2,7 @@
 
 **Date**: January 26, 2026  
 **Status**: ✅ READY FOR DEPLOYMENT  
-**Location**: `/Users/hamidrezamatiny/Documents/GitHub/vit-fastapi-cloud-deploy/`
+**Location**: `../vit-fastapi-cloud-deploy/`
 
 ---
 
@@ -31,7 +31,7 @@ Link billing account to your Google Cloud project
 
 ### 2️⃣ Deploy (10 min)
 ```bash
-cd /Users/hamidrezamatiny/Documents/GitHub/vit-fastapi-cloud-deploy
+cd ../vit-fastapi-cloud-deploy
 ./deploy.sh
 ```
 **Receive**: Your public API URL (e.g., `https://cifar10-api-xxxxx-uc.a.run.app`)
@@ -198,7 +198,7 @@ Public HTTPS URL (worldwide access)
 - [ ] Billing account (required for deployment)
 - [ ] gcloud CLI installed
 - [ ] Docker installed (for local testing)
-- [ ] All files in: `/Users/hamidrezamatiny/Documents/GitHub/vit-fastapi-cloud-deploy/`
+- [ ] All files in: `../vit-fastapi-cloud-deploy/`
 
 ### Ready to Deploy
 - [ ] `deploy.sh` is executable (`ls -l deploy.sh | grep ^-rwx`)
@@ -211,7 +211,7 @@ Public HTTPS URL (worldwide access)
 
 ```bash
 # Navigate to project
-cd /Users/hamidrezamatiny/Documents/GitHub/vit-fastapi-cloud-deploy
+cd ../vit-fastapi-cloud-deploy
 
 # Verify setup
 ls -la deploy.sh test_deployment.sh
@@ -236,7 +236,7 @@ chmod +x deploy.sh test_deployment.sh
 | **"Permission denied" on deploy.sh** | Run: `chmod +x deploy.sh test_deployment.sh` |
 | **Deployment takes forever** | Normal! First build includes 340MB model. Wait 10-15 min. |
 | **First request times out** | Normal! Model is loading. Try again in 30 seconds. |
-| **Can't find deploy.sh** | Verify location: `/Users/hamidrezamatiny/Documents/GitHub/vit-fastapi-cloud-deploy/` |
+| **Can't find deploy.sh** | Verify location: `../vit-fastapi-cloud-deploy/` |
 
 ---
 
@@ -358,7 +358,7 @@ Your deployment is successful when:
 
 ## 📝 Final Notes
 
-- **Your project is stored at**: `/Users/hamidrezamatiny/Documents/GitHub/vit-fastapi-cloud-deploy/`
+- **Your project is stored at**: `../vit-fastapi-cloud-deploy/`
 - **Documentation is comprehensive**: 7 guides for different learning styles
 - **Deployment is automated**: One script does everything
 - **Testing is included**: Scripts and Postman collection provided
