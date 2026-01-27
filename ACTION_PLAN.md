@@ -22,7 +22,7 @@
 In your terminal, run:
 
 ```bash
-cd /Users/hamidrezamatiny/Documents/GitHub/vit-fastapi-cloud-deploy
+cd ../vit-fastapi-cloud-deploy
 ./deploy.sh
 ```
 
@@ -209,7 +209,7 @@ Next Action:       → Run ./deploy.sh
 **Let's Deploy! 🚀**
 
 ```bash
-cd /Users/hamidrezamatiny/Documents/GitHub/vit-fastapi-cloud-deploy
+cd ../vit-fastapi-cloud-deploy
 ./deploy.sh
 ```
 
