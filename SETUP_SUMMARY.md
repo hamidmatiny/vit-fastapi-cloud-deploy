@@ -38,7 +38,7 @@ All files have been configured and optimized for cloud deployment to Google Clou
 
 ### Deploy to Cloud Run
 ```bash
-cd /Users/hamidrezamatiny/Documents/GitHub/vit-fastapi-cloud-deploy
+cd ../vit-fastapi-cloud-deploy
 ./deploy.sh
 ```
 
