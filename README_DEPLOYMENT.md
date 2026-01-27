@@ -51,7 +51,7 @@ Go to: https://console.cloud.google.com/billing
 
 ### Step 2: Deploy (10 min)
 ```bash
-cd /Users/hamidrezamatiny/Documents/GitHub/vit-fastapi-cloud-deploy
+cd ../vit-fastapi-cloud-deploy
 ./deploy.sh
 ```
 Get: Your public API URL (e.g., `https://cifar10-api-xxxxx-uc.a.run.app`)
@@ -142,7 +142,7 @@ Your deployment is successful when:
 ## ✨ You're All Set!
 
 **Status**: ✅ Ready to Deploy  
-**Location**: `/Users/hamidrezamatiny/Documents/GitHub/vit-fastapi-cloud-deploy/`  
+**Location**: `../vit-fastapi-cloud-deploy/`  
 **Next Action**: Read `ACTION_PLAN.md`, then run `./deploy.sh`
 
 ---
