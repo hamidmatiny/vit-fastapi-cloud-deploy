@@ -1,7 +1,7 @@
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from pydantic import BaseModel
 from typing import List
-from model import ModelPredictor  # Import your new HF predictor
+from model import ModelPredictor  # Import your HF predictor
 
 app = FastAPI()
 predictor = ModelPredictor()
