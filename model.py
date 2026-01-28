@@ -9,7 +9,7 @@ os.makedirs(cache_dir, exist_ok=True)
 
 class ModelPredictor:
     def __init__(self):
-        # CORRECT MODEL: This one is 100% CIFAR-10 (Airplane, Bird, Deer, etc.)
+        
         self.model_name = 'aaraki/vit-base-patch16-224-in21k-finetuned-cifar10'
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         
