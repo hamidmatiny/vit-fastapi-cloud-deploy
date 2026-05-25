@@ -1,9 +1,11 @@
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from pydantic import BaseModel
 from typing import List
+from prometheus_client import make_asgi_app
 from model import ModelPredictor  # Import your HF predictor
 
 app = FastAPI()
+app.mount("/metrics", make_asgi_app())
 predictor = ModelPredictor()
 
 # Schema for clean JSON responses
